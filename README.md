@@ -1,4 +1,4 @@
-# ✍️ Django Blog Management System (CMS)
+#  Django Blog Management System (CMS)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![Django](https://img.shields.io/badge/Django-4.2%2B-092E20?style=for-the-badge&logo=django)
@@ -9,7 +9,7 @@
 
 
 
-## 📋 Overview
+##  Overview
 
 The **Blog Management System** is a full-featured web application that allows users to create, edit, and categorize content. It moves beyond a simple webpage by implementing dynamic content rendering, a comment moderation system, and a powerful search engine.
 
@@ -17,7 +17,7 @@ This project demonstrates proficiency in **Django's MVT architecture**, database
 
 ---
 
-## 🔄 Architecture: Content Lifecycle
+##  Architecture: Content Lifecycle
 
 The system manages data through a strict lifecycle to ensure quality and organization.
 
@@ -30,27 +30,27 @@ The system manages data through a strict lifecycle to ensure quality and organiz
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 📝 For Authors
+###  For Authors
 * **Rich Text Editor:** Format posts with headings, bold text, and links.
 * **Dashboard:** Manage drafts, published posts, and views analytics.
 * **Media Management:** Upload and handle cover images for blogs.
 * **Categorization:** Organize posts via Categories and Tags.
 
-### 👓 For Readers
+###  For Readers
 * **Advanced Search:** Find articles by keyword, author, or tag.
 * **Interaction:** Like posts and leave threaded comments.
 * **Social Sharing:** Easily share articles to social media platforms.
 * **Responsive UI:** Clean reading experience on mobile and desktop.
 
-### ⚙️ Admin Features
+###  Admin Features
 * **Comment Moderation:** Approve or delete user comments.
 * **User Management:** Manage permissions for different authors.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Domain | Technologies Used |
 | :--- | :--- |
@@ -61,7 +61,7 @@ The system manages data through a strict lifecycle to ensure quality and organiz
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 * Python 3.8+
@@ -109,8 +109,7 @@ The system manages data through a strict lifecycle to ensure quality and organiz
     Visit `http://localhost:8000`
 
 
-
-🎮 Usage Guide
+ Usage Guide
 1. Writing a Blog Post
 Log in and click "New Post".
 
@@ -127,22 +126,22 @@ Scroll to the comment section.
 
 (As Author/Admin) Click the 🗑️ icon to remove spam or offensive comments.
 
-🛡️ Security & Best Practices
+ Security & Best Practices
 XSS Protection: Django templates automatically escape dangerous characters.
 
 CSRF Tokens: All forms are secured against Cross-Site Request Forgery.
 
 Image Validation: Validates file types to prevent malicious uploads.
 
-📞 Contact & Author
+ Contact & Author
 Arpit Bhojani - Python Developer
 
 📧 Email: bhojaniarpit1432@gmail.com
 
-📱 Phone: +91 7383181094
+ Phone: +91 7383181094
 
 <div align="center"> <sub>Built with ❤️ and Django.</sub> </div>
-## 📂 Project Structure
+## Project Structure
 
 <details>
 <summary>Click to expand file tree</summary>
@@ -161,4 +160,3 @@ blog_project/
 ├── media/               # Uploaded images
 ├── manage.py
 └── requirements.txt
-
